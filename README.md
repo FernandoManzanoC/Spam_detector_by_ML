@@ -1,28 +1,10 @@
-```markdown
 # Proyecto de Detección de Spam
 
-Este repositorio contiene un proyecto de detección de spam que clasifica textos tanto en inglés como en español utilizando modelos de aprendizaje automático. La aplicación se ha desarrollado utilizando Streamlit para proporcionar una interfaz web simple y fácil de usar.
+Este repositorio contiene un proyecto de detección de spam que clasifica textos tanto en inglés como en español utilizando modelos de aprendizaje automático. La aplicación se ha desarrollado utilizando Streamlit para proporcionar una interfaz web simple y fácil de usar. El proyecto se ha realizado de manera individual para el bootcamp de Data Science de The Bridge School que finaliza en Agosto de 2024.
 
 ## Estructura del Repositorio
 
 El repositorio está organizado de la siguiente manera:
-
-```
-├── app.py
-├── spam_en
-│   ├── data
-│   ├── modelos_y_vectorizadores
-│   ├── pruebas
-│   └── notebooks
-│       └── spam_ham_dataset_modeloSVM_desbalanceo.ipynb
-├── spam_es
-│   ├── data
-│   ├── modelos_y_vectorizadores
-│   ├── pruebas
-│   └── notebooks
-```
-
-### Descripción de las Carpetas
 
 - **app.py**: Este archivo contiene la aplicación de Streamlit que permite al usuario comprobar si un texto es spam o no, tanto en inglés como en español.
   
@@ -50,9 +32,9 @@ El repositorio está organizado de la siguiente manera:
 3. Asegúrate de tener instaladas todas las dependencias mencionadas en la sección de requisitos.
 4. Ejecuta la aplicación de Streamlit con el siguiente comando:
 
-```bash
+
 streamlit run app.py
-```
+
 
 5. Abre tu navegador y ve a la dirección que aparece en la terminal (por lo general, es `http://localhost:8501`).
 
@@ -83,4 +65,4 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactar a los mantenedores
 ¡Gracias por usar nuestra aplicación de detección de spam!
 ```
 
-Este README ahora incluye la mención específica al notebook principal para inglés, describiendo cómo se entrena el modelo SVM y se aplican técnicas para el desbalanceo de clases, la búsqueda de hiperparámetros y la calibración del modelo. Puedes ajustarlo según sea necesario para adaptarse a las necesidades específicas de tu proyecto.
+
