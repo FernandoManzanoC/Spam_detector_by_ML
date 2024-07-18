@@ -1,6 +1,6 @@
 # Proyecto de Detección de Spam
 
-Este repositorio contiene un proyecto de detección de spam que clasifica textos tanto en inglés como en español utilizando modelos de aprendizaje automático. La aplicación se ha desarrollado utilizando Streamlit para proporcionar una interfaz web simple y fácil de usar. El proyecto se ha realizado de manera individual para el bootcamp de Data Science de The Bridge School que finaliza en Agosto de 2024.
+Este repositorio contiene un proyecto de detección de spam que clasifica textos tanto en inglés como en español utilizando modelos de aprendizaje automático. La aplicación se ha desarrollado utilizando Streamlit para proporcionar una interfaz web simple y fácil de usar. El proyecto se ha realizado de manera individual para el bootcamp de Data Science de The Bridge School que finaliza en agosto de 2024.
 
 ## Estructura del Repositorio
 
@@ -23,6 +23,8 @@ El repositorio está organizado de la siguiente manera:
   - **modelos_y_vectorizadores**: Modelos entrenados y vectorizadores utilizados para transformar los datos.
   - **pruebas**: Scripts y resultados de las pruebas realizadas para validar los modelos.
   - **notebooks**: Jupyter Notebooks utilizados para explorar los datos, entrenar los modelos y realizar análisis adicionales.
+    - **spam_es_modelo_NB_entrenado_todotrain.ipynb**: Notebook principal para español, del cual tomamos el modelo y vectorizador para la aplicación. Este notebook incluye:
+      
 
 
 ## Cómo Ejecutar la Aplicación
@@ -63,6 +65,3 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactar a los mantenedores
 ---
 
 ¡Gracias por usar nuestra aplicación de detección de spam!
-```
-
-
