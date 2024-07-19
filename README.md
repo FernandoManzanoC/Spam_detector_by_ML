@@ -23,8 +23,9 @@ El repositorio está organizado de la siguiente manera:
   - **modelos_y_vectorizadores**: Modelos entrenados y vectorizadores utilizados para transformar los datos.
   - **pruebas**: Scripts y resultados de las pruebas realizadas para validar los modelos.
   - **notebooks**: Jupyter Notebooks utilizados para explorar los datos, entrenar los modelos y realizar análisis adicionales.
-    - **spam_es_modelo_NB_entrenado_todotrain.ipynb**: Notebook principal para español, del cual tomamos el modelo y vectorizador entrenado con todos los datos de train para la aplicación app.py. 
+    - **spam_es_modelo_NB_entrenado_todotrain.ipynb**: Notebook principal para español, del cual tomamos el modelo y vectorizador entrenado con todos los datos de train para la aplicación app.py.
       
+- **memo_presentacion**: Contiene presentación (pdf) y memoria (md) en español e inglés.
 
 
 ## Cómo Ejecutar la Aplicación
